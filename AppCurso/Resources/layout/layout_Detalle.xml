@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@color/color3"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content" 
+    android:minWidth="25px"
+    android:minHeight="25px">
+
+    <TextView
+        android:text="1"
+        android:layout_marginLeft="2mm"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numeros" />
+    <TextView
+        android:text="Modulo"
+        android:layout_marginLeft="2mm"
+
+        android:layout_gravity=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nombreModulo"/>
+    <ImageView
+        
+        android:src="@drawable/portatilibro"
+        android:layout_width="wrap_content"
+        android:layout_height="20pt"
+        android:id="@+id/imagenModulo" />
+
+
+
+
+</LinearLayout>
